@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * @author haozt
  * @date 2018/1/2 14:16
- * 使用数据结构 栈
+ * 数据结构 栈
  */
 public class Stack<T> {
     private ArrayList<T> stack;
