@@ -68,7 +68,6 @@ public class ExpressionParser {
                         this.characterStack.pop();
                         continue;
                     }else{
-                        System.out.println("妈卖批的，肯定少输入括号了");
                         throw new IllegalArgumentException("括号数目不匹配");
                     }
                 }
