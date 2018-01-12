@@ -10,10 +10,10 @@ import java.util.Arrays;
 public class QuickRank {
     public static void main(String[] args){
         long a = System.currentTimeMillis();
-        int[] arr = ArrayUtil.RandomArr(50000,100000000);
-        System.out.println(Arrays.toString(arr));
-        quickSort(arr,0,arr.length-1);
-        System.out.println(Arrays.toString(arr));
+        int[] arr = ArrayUtil.RandomArr(50000000,1000000000);
+//        quickSort(arr,0,arr.length-1);
+        //java中的sort排序 使用的是 快速排序和归并排序
+        Arrays.sort(arr);
         System.out.println(System.currentTimeMillis()-a+"ms");
     }
     //执行一次快排交换顺序 分治
